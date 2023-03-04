@@ -1,0 +1,52 @@
+.card {
+  width: auto;
+  max-width: 600px;
+  min-width: 365px;
+  height: auto;
+  background-color: darkcyan;
+  margin: 0 auto;
+  padding: 50px;
+  border-radius: 7px;
+}
+
+.card__h1 {
+  color: #fff;
+  font-size: 3rem;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.cards {
+  width: auto;
+  height: 80px;
+  background-color: hotpink;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px;
+  border-radius: 7px;
+  cursor: pointer;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+}
+
+.cards h3 {
+  color:#fff;
+  font-size: 1.8rem;
+}
+.line {
+  width: auto;
+  height: 2px;
+  background-color: rgb(179, 186, 186);
+  margin: 0 auto;
+  // padding: 50px;
+}
+
+.total {
+  background-color: darkcyan;
+  box-shadow: none;
+}
+
+.checked {
+  background-color: green;
+}
